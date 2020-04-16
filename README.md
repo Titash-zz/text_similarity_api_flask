@@ -3,13 +3,14 @@ A Flask API that allows comparision of two texts and returns a similarity ratio 
 
 # Installation
 
-Open cmd/shell.
-
 Install [Vagrant](https://www.vagrantup.com/downloads.html) for your operating system
 
-git clone [https://github.com/Titash/text_similarity_api_flask.git](https://github.com/Titash/text_similarity_api_flask.git)
+Open cmd/shell.
+
+```shell
+git clone https://github.com/Titash/text_similarity_api_flask.git
 
 vagrant up
-
+```
 # API Documentation
 
