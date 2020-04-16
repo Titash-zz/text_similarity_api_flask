@@ -86,7 +86,8 @@ Vagrant.configure("2") do |config|
   sudo docker run hello-world
   sudo curl -L "https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
   sudo chmod +x /usr/local/bin/docker-compose
-  cd /home/vagrant/text-similarity
+  git clone https://github.com/Titash/text_similarity_api_flask.git
+  cd /home/vagrant/text_similarity_api_flask/text-similarity
   docker-compose build
   docker-compose up
   SHELL
